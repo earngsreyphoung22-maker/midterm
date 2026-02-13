@@ -93,7 +93,7 @@ if (isset($_POST['uploadPhoto']) && isset($_FILES['photo'])) {
     <div class="col-6">
         <form method="post" action="./?page=profile" enctype="multipart/form-data">
             <div class="d-flex justify-content-center">
-                <input name="photo" type="file" id="profileUpload" hidden accept=".jpg, .jpeg, .png">
+                <input name="photo" type="file" id="profileUpload" hidden accept=".jpg, .jpeg, .png , .gif">
                 <label role="button" for="profileUpload">
                     <img src="./assets/image/<?php echo $photo ?>" class="rounded"
                         style="width: 200px; height: 200px; object-fit: cover;" alt="Profile Picture">
